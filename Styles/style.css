@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    line-height: 1.765;
+}
+.header_and_greeting{
+    background-image: url("https://colorlib.com/etc/glint/images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 0 70px;
+}
+
+header{
+    height: 96px;
+}
+.header_elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0px;
+    background-color: transparent;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.header_logo{
+    width: 20%;
+}
+.header_menu img{
+    width:60px;
+    height: 60px;
+}
+
+.greeting{
+    background-color: transparent;
+}
