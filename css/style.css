@@ -42,6 +42,7 @@ body{
     width: 100%;
     height: auto;
     position: fixed;
+    z-index:2;
 }
 
 img{
@@ -190,3 +191,4 @@ h1{
 .stats-count-block h5{
     font-family: "monsterrat-semibold", sans-serif;
 }
+
