@@ -1,39 +1,48 @@
-@font-face{
+@font-face {
     font-family: "monsterrat-medium";
     src: url('../fonts/montserrat-medium-webfont.woff2') format("woff2");
 }
+
 @font-face {
     font-family: "monsterrat-semibold";
     src: url('../fonts/montserrat-semibold-webfont.woff2') format("woff2");
 }
+
+@font-face {
+    font-family: "monsterrat-light";
+    src: url('../fonts/montserrat-light-webfont.woff2') format("woff2");
+}
+
 @font-face {
     font-family: "lora-regular";
     src: url('../fonts/lora-regular-webfont.woff2') format("woff2");
 }
+
 @font-face {
     font-family: "monsterrat-bold";
     src: url('../fonts/montserrat-bold-webfont.woff2') format("woff2");
 }
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-size:16px;
+    font-size: 16px;
 }
-.header_and_greeting{
+
+.header_and_greeting {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("https://colorlib.com/etc/glint/images/hero-bg.jpg");
     background-size: cover;
     background-position: center center;
-    height:946px;
+    height: 946px;
     position: relative;
 }
 
-body{
-    font-family: "lora-regular",serif;
+body {
+    font-family: "lora-regular", serif;
 }
 
-.header_elements{
+.header_elements {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,51 +53,54 @@ body{
     position: fixed;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-.header_logo{
+.header_logo {
     width: 80px;
 }
 
-.greeting{
+.greeting {
     background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding:200px 30px 100px 30px;
+    padding: 200px 30px 100px 30px;
     text-align: center;
 }
 
-h1{
-    color:white;
+h1 {
+    color: white;
     font: 33px "monsterrat-medium", sans-serif;
     margin-bottom: 16px;
     line-height: 1.3em;
 }
 
-.greeting-main-welcome h3{
-    color:rgba(255, 255, 255, 0.5);
+.greeting-main-welcome h3 {
+    color: rgba(255, 255, 255, 0.5);
     margin: 0 0 12px 6px;
     font: 16px "monsterrat-medium", sans-serif;
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
-.greeting-main-welcome a{
-    color:white;
+
+.greeting-main-welcome a {
+    color: white;
     text-decoration: none;
-    padding:50px;
+    padding: 50px;
 }
-.greeting-main-welcome-buttons{
-    padding-top:12px;
+
+.greeting-main-welcome-buttons {
+    padding-top: 12px;
     max-width: 500px;
 }
-.greeting-main-welcome-buttons > div{
-    width:100%;
+
+.greeting-main-welcome-buttons > div {
+    width: 100%;
     height: 60px;
     padding-top: 20px;
     margin-top: 15px;
@@ -97,20 +109,21 @@ h1{
     font: 14px "monsterrat-medium", sans-serif;
 }
 
-.greeting-scroll-down{
-    height:auto;
-    padding-top:200px;
-    width:100%;
+.greeting-scroll-down {
+    height: auto;
+    padding-top: 200px;
+    width: 100%;
 }
 
-.scroll-down-button a{
+.scroll-down-button a {
     text-decoration: none;
     position: absolute;
     right: 2.5rem;
     bottom: 7%;
 
 }
-.scroll-down-button span{
+
+.scroll-down-button span {
     font-family: "monsterrat-semibold", sans-serif;
     font-size: 10px;
     text-transform: uppercase;
@@ -119,7 +132,8 @@ h1{
     color: #FFFFFF;
     letter-spacing: .1rem;
 }
-.scroll-down-line{
+
+.scroll-down-line {
     display: block;
     width: 1px;
     height: 5rem;
@@ -129,8 +143,8 @@ h1{
     bottom: 0;
 }
 
-.stats{
-    width:100%;
+.stats {
+    width: 100%;
     background-color: #39b54a;
     display: flex;
     flex-direction: column;
@@ -139,10 +153,10 @@ h1{
     align-content: center;
     padding: 150px 30px 100px 30px;
     text-align: center;
-    position:relative;
+    position: relative;
 }
 
-.scroll-down-line-2{
+.scroll-down-line-2 {
     display: block;
     width: 1px;
     height: 5rem;
@@ -152,41 +166,42 @@ h1{
     top: 0;
 }
 
-.stats-heading h2{
-    font-family: "monsterrat-medium",sans-serif;
+.stats-heading h2 {
+    font-family: "monsterrat-medium", sans-serif;
     color: white;
-    padding-top:10px;
+    padding-top: 10px;
     font-size: 30px;
     letter-spacing: .1rem;
 }
-.stats-heading h4{
-    font-family: "monsterrat-bold",sans-serif;
+
+.stats-heading h4 {
+    font-family: "monsterrat-bold", sans-serif;
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
 
-.stats-count-block{
-    padding-top:20px;
+.stats-count-block {
+    padding-top: 20px;
 }
 
-.stats hr{
-    margin:40px 0px 20px 0px;
+.stats hr {
+    margin: 40px 0px 20px 0px;
     color: white;
     height: 1px;
     width: 200px;
 }
 
-.text-before-stats p{
+.text-before-stats p {
     font-size: 16px;
     margin: 20px 0px 20px 0px;
     line-height: 1.5em;
 }
 
-.stats-count{
+.stats-count {
     font: 74px "monsterrat-bold", sans-serif;
-    color:white;
+    color: white;
 }
 
-.stats-count-block h5{
+.stats-count-block h5 {
     font-family: "monsterrat-semibold", sans-serif;
 }
