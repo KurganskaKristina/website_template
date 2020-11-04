@@ -22,7 +22,7 @@ a img {
     line-height: 1.5;
 }
 
-.works-heading__h4 {
+.works-title__heading {
     text-transform: uppercase;
     font-family: "monsterrat-bold", sans-serif;
     letter-spacing: .25rem;
@@ -31,7 +31,7 @@ a img {
     margin: 9rem 0 0 0;
 }
 
-.works-heading__h2 {
+.works-title__subheading {
     font-family: "monsterrat-medium", sans-serif;
     font-size: 1.8rem;
     color: white;
@@ -39,7 +39,7 @@ a img {
     position: relative;
 }
 
-.works-heading__h2::after {
+.works-title__subheading2::after {
     content: "";
     position: absolute;
     left: 0;

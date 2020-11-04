@@ -11,24 +11,24 @@
     height: auto;
 }
 
-.services-heading {
+.services-title {
     margin-bottom: 2.5rem;
 }
 
-.services-heading__h4 {
+.services-title__heading {
     text-transform: uppercase;
     font-family: "monsterrat-bold", sans-serif;
     color: #39b54a;
 }
 
-.services-heading__h2 {
+.services-title__subheading {
     font-family: "monsterrat-medium", sans-serif;
     font-size: 1.5rem;
     margin: 0.6rem 0 1.5rem;
     position: relative;
 }
 
-.services-heading__h2::after {
+.services-title__subheading::after {
     content: "";
     position: absolute;
     left: 0;

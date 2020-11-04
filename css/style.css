@@ -57,8 +57,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 30px;
-    background-color: transparent;
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     height: auto;
     position: fixed;
@@ -91,6 +91,7 @@ h1 {
 .greeting-main__buttons {
     padding-top: 12px;
     max-width: 500px;
+    margin: 0 auto;
 }
 
 .greeting-main__buttons a {

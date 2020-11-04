@@ -13,7 +13,7 @@
     position: relative;
 }
 
-.clients-heading__h4 {
+.clients-title__heading {
     text-transform: uppercase;
     font-family: "monsterrat-bold", sans-serif;
     letter-spacing: .25rem;
@@ -22,7 +22,7 @@
     margin: 9rem 0 0 0;
 }
 
-.clients-heading__h2 {
+.clients-title__subheading {
     font-family: "monsterrat-medium", sans-serif;
     font-size: 1.8rem;
     margin: 0.6rem 0 3rem;
