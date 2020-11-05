@@ -1,0 +1,65 @@
+.footer {
+    padding: 6rem 30px 3rem;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.3);
+    background: #111111;
+}
+
+.about-glint {
+    margin-bottom: 2rem;
+}
+
+.about-glint__logo {
+    margin: 0 auto 2rem auto;
+    width: 85px;
+    height: 28px;
+}
+
+.get-notified {
+    margin-bottom: 2rem;
+}
+
+.get-notified__heading {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.subscribe__email {
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    height: 3rem;
+    padding: 1.2rem 20px 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe__button {
+    width: 100%;
+    background: #39b54a;
+    border: none;
+    height: 3rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 0.75rem;
+}
+
+.copyright {
+    margin-top: 6rem;
+    font-size: 14px;
+    text-align: center;
+}
+
+.copyright span {
+    display: block;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+}
