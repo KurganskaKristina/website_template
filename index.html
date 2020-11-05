@@ -6,6 +6,24 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                document.getElementById("topBtn").style.display = "block";
+            } else {
+                document.getElementById("topBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </head>
 <body>
 <div class="header_and_greeting">
@@ -27,9 +45,9 @@
                 <div class="greeting-main-welcome1"><h3>Welcome to Clint</h3></div>
                 <div class="greeting-main-welcome2">
                     <h1>We are a creative group<br>
-                    of people who design<br>
-                    influential brands and<br>
-                    digital experiences.</h1>
+                        of people who design<br>
+                        influential brands and<br>
+                        digital experiences.</h1>
                 </div>
 
                 <div class="greeting-main-welcome-buttons">
@@ -121,6 +139,8 @@
         <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
     </div>
 </footer>
+
+<button onclick="topFunction()" id="topBtn" title="Go to top"><img src="img/top-icon.png" alt="top"></button>
 
 </body>
 </html>

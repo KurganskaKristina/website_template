@@ -26,27 +26,29 @@
     color: white;
 }
 
-.subscribe__email {
+.subscribe input, button {
     width: 100%;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.1);
-    color: rgba(255, 255, 255, 0.5);
     border: none;
     height: 3rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+.subscribe__email {
+    background: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.5);
     padding: 1.2rem 20px 1.2rem;
     margin-bottom: 1rem;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 0.75rem;
 }
 
 .subscribe__button {
-    width: 100%;
     background: #39b54a;
-    border: none;
-    height: 3rem;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-family: "montserrat-medium", sans-serif;
-    font-size: 0.75rem;
 }
 
 .copyright {
@@ -59,7 +61,25 @@
     display: block;
 }
 
-.copyright a{
+.copyright a {
     text-decoration: none;
     color: white;
+}
+
+#topBtn {
+    display: none;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(57, 54, 54, 0.5);
+}
+
+#topBtn img {
+    width: 15px;
+    height: 15px;
 }
