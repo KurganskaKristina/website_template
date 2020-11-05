@@ -51,6 +51,7 @@
 .message-us {
     padding: 3rem 30px 3rem;
 }
+
 .message-us__heading {
     font-family: "montserrat-medium", sans-serif;
     font-size: 0.75rem;
@@ -60,10 +61,8 @@
     color: white;
     margin-bottom: 3rem;
 }
-.message-us__form {
 
-}
-.message-us__input-item{
+.message-us__form input, textarea {
     font-family: "monsterrat-light", sans-serif;
     font-size: 0.75rem;
     color: rgba(255, 255, 255, 0.6);
@@ -71,22 +70,12 @@
     background-color: transparent;
     border: 0;
     outline: none;
-    width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-    padding:1rem 0 1rem;
+    padding: 1rem 0 1rem;
+    width: 100%;
 }
 
 .message-us__message-field textarea {
-    font-family: "monsterrat-light", sans-serif;
-    font-size: 0.75rem;
-    color: rgba(255, 255, 255, 0.6);
-    margin-bottom: .9rem;
-    background-color: transparent;
-    border: 0;
-    outline: none;
-    width: 100%;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-    padding:1rem 0 1rem;
     min-height: 15rem;
 }
 
@@ -96,7 +85,7 @@
     font-family: "montserrat-medium", sans-serif;
     font-size: 0.75rem;
     background: #39b54a;
-    border:none;
+    border: none;
     color: white;
     text-transform: uppercase;
     letter-spacing: .3rem;
