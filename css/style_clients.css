@@ -1,0 +1,136 @@
+.clients {
+    width: 100%;
+    height: auto;
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 50px 30px 150px 30px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.clients-title__heading {
+    text-transform: uppercase;
+    font-family: "monsterrat-bold", sans-serif;
+    letter-spacing: .25rem;
+    font-size: 0.9rem;
+    color: #39b54a;
+    margin: 9rem 0 0 0;
+}
+
+.clients-title__subheading {
+    font-family: "monsterrat-medium", sans-serif;
+    font-size: 1.8rem;
+    margin: 0.6rem 0 3rem;
+}
+
+.clients ul {
+    list-style: none;
+    opacity: .55;
+    display: flex;
+    justify-content: center;
+}
+
+.clients-techstack-images__li {
+    width: 50%;
+    padding: 0.8rem 1.2rem;
+}
+
+.clients-techstack-dots {
+    margin: 1.2rem 0 0;
+}
+
+.clients-techstack-dots__li {
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    padding: 9px;
+}
+
+.clients button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #959595;
+    border: none;
+}
+
+.clients-techstack-dots__li:hover > button {
+    background: #39b54a;
+}
+
+.clients-techstack-dots::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    margin-top: 5rem;
+    display: block;
+}
+
+.clients-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients-feedback-quote {
+    font-family: "lora-regular", serif;
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.9rem;
+    padding-top: 9rem;
+    margin-bottom: 4rem;
+}
+
+.clients-feedback-client__photo {
+    height: 5.4rem;
+    width: 5.4rem;
+    margin: 0 auto 1.2rem auto;
+}
+
+.clients-feedback-client__photo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.clients-feedback-client__name {
+    font-family: "monsterrat-bold", sans-serif;
+}
+
+.clients-feedback-client__position {
+    font-family: "monsterrat-light", sans-serif;
+    font-size: 0.8rem;
+}
+
+.clients-feedback-dots {
+    padding-top: 2rem;
+}
+
+.clients-feedback-dots__li {
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    padding: 9px;
+}
+
+.clients-feedback-dots__li:hover > button {
+    background: #39b54a;
+}
+
+.clients-line {
+    display: block;
+    width: 2px;
+    height: 6rem;
+    background-color: #39b54a;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}

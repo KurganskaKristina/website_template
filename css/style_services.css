@@ -1,0 +1,52 @@
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 150px 30px 100px 30px;
+    text-align: center;
+    line-height: 1.5;
+    height: auto;
+}
+
+.services-title {
+    margin-bottom: 2.5rem;
+}
+
+.services-title__heading {
+    text-transform: uppercase;
+    font-family: "monsterrat-bold", sans-serif;
+    color: #39b54a;
+}
+
+.services-title__subheading {
+    font-family: "monsterrat-medium", sans-serif;
+    font-size: 1.5rem;
+    margin: 0.6rem 0 1.5rem;
+    position: relative;
+}
+
+.services-title__subheading::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8rem;
+    width: 15rem;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    display: block;
+}
+
+.services-list__heading {
+    margin-bottom: 1rem;
+    font-family: "monsterrat-medium", sans-serif;
+}
+
+.services-list__text {
+    margin-bottom: 1.8rem;
+    color: #757575;
+}
