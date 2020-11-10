@@ -1,6 +1,5 @@
 .footer {
     padding: 6rem 30px 3rem;
-    font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
     color: rgba(255, 255, 255, 0.3);
@@ -39,7 +38,6 @@
     color: rgba(255, 255, 255, 0.5);
     padding: 1.2rem 20px 1.2rem;
     margin-bottom: 1rem;
-    font-family: "montserrat-light", sans-serif;
     font-size: 0.75rem;
 }
 
@@ -48,7 +46,6 @@
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    font-family: "montserrat-medium", sans-serif;
 }
 
 .copyright {
@@ -66,20 +63,20 @@
     color: white;
 }
 
-#topBtn {
+.scroll-top-button {
     display: none;
     position: fixed;
     width: 60px;
     height: 60px;
     bottom: 0px;
     right: 0px;
-    z-index: 99;
+    z-index: 100;
     border: none;
     outline: none;
     background-color: rgba(57, 54, 54, 0.5);
 }
 
-#topBtn img {
+.scroll-top-button img {
     width: 15px;
     height: 15px;
 }
