@@ -1,0 +1,121 @@
+.contact-us {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../img/contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center, center;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    line-height: 1.5;
+    position: relative;
+    padding-bottom: 8rem;
+}
+
+.contact-us-line {
+    display: block;
+    width: 2px;
+    height: 5rem;
+    background-color: #39b54a;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.contact-us-title {
+    background-image: linear-gradient(rgba(143, 137, 137, 0.1), rgba(143, 137, 137, 0.1));
+    padding: 7rem 30px 30px;
+}
+
+.contact-us-title__heading {
+    text-transform: uppercase;
+    color: #39b54a;
+    letter-spacing: .25rem;
+    font-size: 0.9rem;
+}
+
+.contact-us-title__subheading {
+    margin: 0.6rem 0 1.5rem;
+    position: relative;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 0.07rem
+}
+
+.message-us {
+    padding: 3rem 30px 3rem;
+}
+
+.message-us__heading {
+    font-size: 0.75rem;
+    line-height: 1.385;
+    text-transform: uppercase;
+    letter-spacing: .16rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.message-us__form input, textarea {
+    font-family: "monsterrat-light", sans-serif;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: .9rem;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    padding: 1rem 0 1rem;
+    width: 100%;
+}
+
+.message-us__message-field textarea {
+    min-height: 15rem;
+}
+
+.message-us__message-field button {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 0.75rem;
+    background: #39b54a;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    height: 3rem;
+    padding: 0 3rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contact-details__heading {
+    margin-top: 0;
+    color: #39b54a;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+
+}
+
+.contact-details__details {
+    font-size: 0.75rem;
+    line-height: 2;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.contact-details__sm-list {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details__sm-item {
+    margin-right: 15px;
+    padding-left: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+

@@ -4,65 +4,77 @@
     <meta charset="UTF-8">
     <title>Website Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_stats.css">
     <link rel="stylesheet" href="css/style_services.css">
     <link rel="stylesheet" href="css/style_works.css">
     <link rel="stylesheet" href="css/style_clients.css">
+    <link rel="stylesheet" href="css/style_contact-us.css">
+    <link rel="stylesheet" href="css/style_footer.css">
+    <link rel="stylesheet" href="css/media/mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="header_and_greeting">
-    <header class="header_elements">
-        <div class="header_logo">
-            <a href="index.html">
-                <img src="img/logo.png" alt="Colorlib logo">
-            </a>
+<div class="header-and-greeting">
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html"><img src="img/logo.png" alt="сolorlib-logo"></a>
         </div>
 
-        <div class="header_menu">
+        <div class="header__menu">
             <img src="img/icons8-menu.png" alt="Menu">
         </div>
     </header>
 
     <section class="greeting">
-        <div class="greeting-main">
-            <div class="greeting-main-welcome">
-                <div class="greeting-main-welcome1"><h3>Welcome to Clint</h3></div>
-                <div class="greeting-main-welcome2">
+        <div class="greeting-main font-montserrat-medium">
+            <div class="greeting-main__intro">
+                <div class="greeting-main__heading1"><h3>Welcome to Clint</h3></div>
+                <div class="greeting-main__heading2">
                     <h1>We are a creative group
-                    of people who design
-                    influential brands and
-                    digital experiences.</h1>
+                        of people who design
+                        influential brands and
+                        digital experiences.</h1>
                 </div>
 
-                <div class="greeting-main-welcome-buttons">
-                    <div class="greeting-main-welcome-buttons1">
+                <div class="greeting-main__buttons">
+                    <div class="greeting-main__button1">
                         <a href="#">Start a project</a>
                     </div>
 
-                    <div class="greeting-main-welcome-buttons2">
+                    <div class="greeting-main__button2">
                         <a href="3">More about us</a>
                     </div>
                 </div>
             </div>
+
+            <div class="greeting-main__sm">
+                <ul class="greeting-main__sm-list">
+                    <li class="greeting-main__sm-item"><img src="img/sm/facebook.png" alt="facebook"></li>
+                    <li class="greeting-main__sm-item"><img src="img/sm/twitter.png" alt="twitter"></li>
+                    <li class="greeting-main__sm-item"><img src="img/sm/instagram.png" alt="instagram"></li>
+                    <li class="greeting-main__sm-item"><img src="img/sm/behance.png" alt="behance"></li>
+                    <li class="greeting-main__sm-item"><img src="img/sm/linkedin.png" alt="linkedin"></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="greeting-scroll-down">
-            <div class="scroll-down-button">
+        <div class="greeting-scrolling font-montserrat-semibold">
+            <div class="greeting-scrolling__button">
                 <a href="#"><img src="img/scroll-down.png" alt="scroll-down icon"><span>scroll down</span></a>
             </div>
-            <div class="scroll-down-line"></div>
+            <div class="greeting-scrolling__line"></div>
         </div>
     </section>
 </div>
 
 <section class="stats">
-    <div class="scroll-down-line-2"></div>
-    <div class="stats-heading">
-        <h4>Hello there</h4>
-        <h2>We are Clint</h2>
+    <div class="stats-scrolling__line"></div>
+    <div class="stats-title">
+        <h4 class="stats-title__heading font-montserrat-bold">Hello there</h4>
+        <h2 class="stats-title__subheading font-montserrat-medium">We are Clint</h2>
         <hr>
     </div>
-    <div class="text-before-stats">
+    <div class="stats-text">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -73,80 +85,87 @@
         </p>
     </div>
     <div class="stats-numbers">
-        <div class="stats-count-block">
-            <div class="stats-count">127</div>
-            <h5>Awards Recieved</h5>
+        <div class="stats-counter">
+            <div class="stats-counter__item1">127</div>
+            <h5 class="stats-counter__item2">Awards Recieved</h5>
             <hr>
         </div>
-        <div class="stats-count-block">
-            <div class="stats-count">1505</div>
-            <h5>Cups of coffee</h5>
+        <div class="stats-counter">
+            <div class="stats-counter__item1">1505</div>
+            <h5 class="stats-counter__item2">Cups of coffee</h5>
             <hr>
         </div>
-        <div class="stats-count-block">
-            <div class="stats-count">109</div>
-            <h5>Projects Completed</h5>
+        <div class="stats-counter">
+            <div class="stats-counter__item1">109</div>
+            <h5 class="stats-counter__item2">Projects Completed</h5>
             <hr>
         </div>
-        <div class="stats-count-block">
-            <div class="stats-count">102</div>
-            <h5>Happy Clients</h5>
+        <div class="stats-counter">
+            <div class="stats-counter__item1">102</div>
+            <h5 class="stats-counter__item2">Happy Clients</h5>
             <hr>
         </div>
     </div>
 </section>
 
 <section class="services">
-    <div class="services_heading">
-        <h4>What we do</h4>
-        <h2>We’ve got everything you need to launch and grow your business</h2>
+    <div class="services-title">
+        <h4 class="services-title__heading font-montserrat-bold">What we do</h4>
+        <h2 class="services-title__subheading font-montserrat-medium">We’ve got everything you need to launch and grow
+            your business</h2>
     </div>
 
     <div class="services-list">
-        <div class="services-item">
-            <div class="services-item-icon"><img src="img/icons8-circled.png" alt="icon1"></div>
-            <h3>Brand Identity</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+        <div class="services-list__item">
+            <div class="services-list__icon"><img src="img/icons8-circled.png" alt="icon1"></div>
+            <h3 class="services-list__heading font-montserrat-medium">Brand Identity</h3>
+            <p class="services-list__text">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum
+                laudantium.
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                 Sunt suscipit voluptas ipsa in tempora esse soluta sint.
             </p>
         </div>
-        <div class="services-item">
-            <div class="services-item-icon"><img src="img/icons8-circled.png" alt="icon2"></div>
-            <h3>Illustration</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+        <div class="services-list__item">
+            <div class="services-list__icon"><img src="img/icons8-circled.png" alt="icon2"></div>
+            <h3 class="services-list__heading">Illustration</h3>
+            <p class="services-list__text">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum
+                laudantium.
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                 Sunt suscipit voluptas ipsa in tempora esse soluta sint.
             </p>
         </div>
-        <div class="services-item">
-            <div class="services-item-icon"><img src="img/icons8-circled.png" alt="icon3"></div>
-            <h3>Marketing</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+        <div class="services-list__item">
+            <div class="services-list__icon"><img src="img/icons8-circled.png" alt="icon3"></div>
+            <h3 class="services-list__heading">Marketing</h3>
+            <p class="services-list__text">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum
+                laudantium.
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                 Sunt suscipit voluptas ipsa in tempora esse soluta sint.
             </p>
         </div>
-        <div class="services-item">
+        <div class="services-list__item">
             <div class="services-item-icon"><img src="img/icons8-circled.png" alt="icon4"></div>
-            <h3>Web Design</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+            <h3 class="services-list__heading">Web Design</h3>
+            <p class="services-list__text">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum
+                laudantium.
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                 Sunt suscipit voluptas ipsa in tempora esse soluta sint.
             </p>
         </div>
-        <div class="services-item">
+        <div class="services-list__item">
             <div class="services-item-icon"><img src="img/icons8-circled.png" alt="icon5"></div>
-            <h3>Packaging Design</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+            <h3 class="services-list__heading">Packaging Design</h3>
+            <p class="services-list__text">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum
+                laudantium.
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                 Sunt suscipit voluptas ipsa in tempora esse soluta sint.
             </p>
         </div>
-        <div class="services-item">
+        <div class="services-list__item">
             <div class="services-item-icon"><img src="img/icons8-circled.png" alt="icon6"></div>
-            <h3>Web Development</h3>
-            <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium.
+            <h3 class="services-list__heading">Web Development</h3>
+            <p class="services-list__text">Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum
+                laudantium.
                 Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                 Sunt suscipit voluptas ipsa in tempora esse soluta sint.
             </p>
@@ -155,48 +174,185 @@
 </section>
 
 <section class="works">
-    <div class="works-heading">
-        <h4>Recent works</h4>
-        <h2>We love what we do, check out some of our latest works</h2>
+    <div class="works-title">
+        <h4 class="works-title__heading font-montserrat-bold">Recent works</h4>
+        <h2 class="works-title__subheading font-montserrat-medium">We love what we do, check out some of our latest
+            works</h2>
     </div>
     <div class="works-list">
-        <a href="#"><img src="img/portfolio/lady-shutterbug@2x.jpg" alt="portfolio-1"></a>
-        <a href="#"><img src="img/portfolio/woodcraft@2x.jpg" alt="portfolio-2"></a>
-        <a href="#"><img src="img/portfolio/the-beetle@2x.jpg" alt="portfolio-3"></a>
-        <a href="#"><img src="img/portfolio/grow-green@2x.jpg" alt="portfolio-4"></a>
-        <a href="#"><img src="img/portfolio/guitarist@2x.jpg" alt="portfolio-5"></a>
-        <a href="#"><img src="img/portfolio/palmeira@2x.jpg" alt="portfolio-6"></a>
+        <div class="works-list__photo">
+            <a href="#"><img src="img/portfolio/lady-shutterbug@2x.jpg" alt="portfolio-1"></a>
+        </div>
+        <div class="works-list__photo">
+            <a href="#"><img src="img/portfolio/woodcraft@2x.jpg" alt="portfolio-2"></a>
+        </div>
+        <div class="works-list__photo">
+            <a href="#"><img src="img/portfolio/the-beetle@2x.jpg" alt="portfolio-3"></a>
+        </div>
+        <div class="works-list__photo">
+            <a href="#"><img src="img/portfolio/grow-green@2x.jpg" alt="portfolio-4"></a>
+        </div>
+        <div class="works-list__photo">
+            <a href="#"><img src="img/portfolio/guitarist@2x.jpg" alt="portfolio-5"></a>
+        </div>
+        <div class="works-list__photo">
+            <a href="#"><img src="img/portfolio/palmeira@2x.jpg" alt="portfolio-6"></a>
+        </div>
     </div>
 </section>
 
 <section class="clients">
-    <div class="clients-heading">
-        <h4>Our clients</h4>
-        <h2>Glint has been honored to
+    <div class="clients-title">
+        <h4 class="clients-title__heading font-montserrat-bold">Our clients</h4>
+        <h2 class="clients-title__subheading font-montserrat-medium">Glint has been honored to
             partner up with these clients</h2>
     </div>
 
-    <div class="clients-techstack_slider">
-        <div class="clients-techstack_slider-img">
-            <ul class="clients-techstack_slider-img_ul">
-               <li><img src="img/apple.png" alt="tech-1"></li>
-               <li><img src="img/atom.png" alt="tech-1"></li>
+    <div class="clients-techstack">
+        <div class="clients-techstack-images">
+            <ul class="clients-techstack-images__ul">
+                <li class="clients-techstack-images__li"><img src="img/apple.png" alt="tech-1"></li>
+                <li class="clients-techstack-images__li"><img src="img/atom.png" alt="tech-1"></li>
             </ul>
         </div>
-        <div class="clients-techstack_slider-dots">
-            <ul class="clients-techstack_slider-dots-ul">
-                <li><button type="button"></button></li>
-                <li><button type="button"></button></li>
-                <li><button type="button"></button></li>
-                <li><button type="button"></button></li>
+        <div class="clients-techstack-dots">
+            <ul class="clients-techstack-dots__ul">
+                <li class="clients-techstack-dots__li">
+                    <button type="button"></button>
+                </li>
+                <li class="clients-techstack-dots__li">
+                    <button type="button"></button>
+                </li>
+                <li class="clients-techstack-dots__li">
+                    <button type="button"></button>
+                </li>
+                <li class="clients-techstack-dots__li">
+                    <button type="button"></button>
+                </li>
             </ul>
         </div>
     </div>
 
-    <div class="clients-clients_feedback_slider">
+    <div class="clients-feedback">
+        <div class="clients-feedback-quote">
+            <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum.
+                Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui
+                praesentium corpori.
+                Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
+        </div>
+        <div class="clients-feedback-client">
+            <div class="clients-feedback-client__photo"><img src="img/user-01.jpg" alt="client1"></div>
+            <div class="clients-feedback-client__name font-montserrat-bold"><span>Tim Cook</span></div>
+            <div class="clients-feedback-client__position font-montserrat-light"><span>CEO, Apple</span></div>
+        </div>
 
+        <div class="clients-feedback-dots">
+            <ul class="clients-feedback-dots__ul">
+                <li class="clients-feedback-dots__li">
+                    <button type="button"></button>
+                </li>
+                <li class="clients-feedback-dots__li">
+                    <button type="button"></button>
+                </li>
+                <li class="clients-feedback-dots__li">
+                    <button type="button"></button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="clients-line"></div>
     </div>
 </section>
+
+<section class="contact-us">
+    <div class="contact-us-line"></div>
+
+    <div class="contact-us-title">
+        <h4 class="contact-us-title__heading font-montserrat-bold">Contact us</h4>
+        <h2 class="contact-us-title__subheading font-montserrat-medium">Reach out for a new project or just say
+            hello</h2>
+    </div>
+
+    <div class="message-us">
+        <h4 class="message-us__heading font-montserrat-medium">Send us a message</h4>
+        <form class="message-us__form">
+            <div class="message-us__input">
+                <input type="text" class="message-us__input-item" name="name" placeholder="Your Name">
+                <input type="email" class="message-us__input-item" name="email" placeholder="Your Email">
+                <input type="text" class="message-us__input-item" name="subject" placeholder="Subject">
+            </div>
+            <div class="message-us__message-field">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="button">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="contact-details">
+        <div class="contact-details__general">
+            <div class="contact-details__item">
+                <h5 class="contact-details__heading font-montserrat-medium">Where to find us</h5>
+                <p class="contact-details__details font-montserrat-light">1600 Amphitheatre Parkway
+                    <br>Mountain View, CA
+                    <br>94043 US
+                </p>
+            </div>
+            <div class="contact-details__item">
+                <h5 class="contact-details__heading font-montserrat-medium">Email us at</h5>
+                <p class="contact-details__details font-montserrat-light">contact@glintsite.com
+                    <br>info@glintsite.com
+                </p>
+            </div>
+            <div class="contact-details__item">
+                <h5 class="contact-details__heading font-montserrat-medium">Call us at</h5>
+                <p class="contact-details__details font-montserrat-light">Phone: (+63) 555 1212
+                    <br>Mobile: (+63) 555 0100
+                    <br>Fax: (+63) 555 0101
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-details__sm">
+            <ul class="contact-details__sm-list">
+                <li class="contact-details__sm-item"><img src="img/sm/facebook.png" alt="facebook"></li>
+                <li class="contact-details__sm-item"><img src="img/sm/twitter.png" alt="twitter"></li>
+                <li class="contact-details__sm-item"><img src="img/sm/instagram.png" alt="instagram"></li>
+                <li class="contact-details__sm-item"><img src="img/sm/behance.png" alt="behance"></li>
+                <li class="contact-details__sm-item"><img src="img/sm/linkedin.png" alt="linkedin"></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer class="footer font-montserrat-light">
+    <div class="about-glint">
+        <div class="about-glint__logo"><img src="img/logo-footer.png" alt="logo"></div>
+        <p class="about-glint__text">
+            Proin eget tortor risus. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis
+            a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt.
+            Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.</p>
+    </div>
+
+    <div class="get-notified">
+        <h4 class="get-notified__heading">Get Notified</h4>
+        <p class="get-notified__text">Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae
+            aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+    </div>
+
+    <form class="subscribe" name="subscription-form">
+        <input type="email" class="subscribe__email" placeholder="Email Address" name="email-for-subscription">
+        <button type="button" class="subscribe__button font-montserrat-medium">Subscribe</button>
+    </form>
+
+    <div class="copyright">
+        <span>© Copyright Glint 2017</span>
+        <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
+    </div>
+</footer>
+
+<button class="top-return-button"><img src="img/top-icon.png" alt="top-return-button"></button>
 
 </body>
 </html>
