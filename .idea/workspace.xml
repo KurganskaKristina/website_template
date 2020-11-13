@@ -20,23 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aca3c87e-d2e0-44bf-b71b-32a2ccd8b8f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style_contact-us.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style_footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/contact-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sm/behance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sm/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sm/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sm/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sm/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/top-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/user-01.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_clients.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_clients.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_works.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_works.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +66,7 @@
       <workItem from="1605112566016" duration="5399000" />
       <workItem from="1605263682305" duration="1129000" />
       <workItem from="1605266412717" duration="822000" />
-      <workItem from="1605277006288" duration="7020000" />
+      <workItem from="1605277006288" duration="10731000" />
     </task>
     <servers />
   </component>
@@ -88,6 +74,15 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

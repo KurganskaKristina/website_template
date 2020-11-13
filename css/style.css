@@ -67,8 +67,10 @@ ul {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("https://colorlib.com/etc/glint/images/hero-bg.jpg");
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
     height: 946px;
     position: relative;
+
 }
 
 h1 {
@@ -129,6 +131,8 @@ h1 {
 .greeting-main__buttons a {
     color: white;
     padding: 50px;
+    font-size: 12px;
+    letter-spacing: .25rem;
 }
 
 .greeting-main__buttons > div {
