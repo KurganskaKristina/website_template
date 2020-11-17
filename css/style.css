@@ -44,6 +44,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 body {
@@ -63,16 +64,6 @@ ul {
     list-style: none;
 }
 
-.header_and_greeting {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("https://colorlib.com/etc/glint/images/hero-bg.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 946px;
-    position: relative;
-
-}
-
 h1 {
     color: white;
     font-size: 33px;
@@ -84,7 +75,6 @@ h1 {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../img/hero-bg.jpg');
     background-size: cover;
     background-position: center center;
-    height: 946px;
     position: relative;
 }
 
@@ -124,24 +114,24 @@ h1 {
 }
 
 .greeting-main__buttons {
-    padding-top: 12px;
-    max-width: 500px;
+    width: 100%;
 }
 
 .greeting-main__buttons a {
+    width: 80%;
     color: white;
-    padding: 50px;
     font-size: 12px;
     letter-spacing: .25rem;
 }
 
-.greeting-main__buttons > div {
+.greeting-main__button {
     width: 100%;
+    padding-top: 1rem;
     height: 60px;
-    padding-top: 20px;
     margin-top: 15px;
     border: 2px solid white;
     text-transform: uppercase;
+    text-align: center;
     font-size: 14px;
 }
 
@@ -159,6 +149,7 @@ h1 {
     position: absolute;
     right: 2.5rem;
     bottom: 7%;
+    overflow-y: hidden;
 
 }
 

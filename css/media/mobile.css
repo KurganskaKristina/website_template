@@ -13,6 +13,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin: 0 5%;
 
     }
 
@@ -22,13 +23,17 @@
         justify-content: flex-start;
         text-align: left;
         align-items: flex-start;
-        width: 80%;
-        padding-right: 10%;
+        width: 90%;
+    }
+
+    .greeting-main__buttons > div {
+        font-size: 1rem;
+        width: 70%;
     }
 
     .greeting-main__sm-item {
         padding: 0.5rem 0 1rem 0;
-        width: 1.5rem;
+        width: 100%;
     }
 
     .greeting-main__sm-list {
@@ -37,5 +42,12 @@
 
     .works-list {
         margin-top: -75%;
+    }
+
+    .clients-techstack-images__li {
+        width: 30%;
+    }
+    .clients-techstack-images__li:nth-child(3) {
+        display: block;
     }
 }

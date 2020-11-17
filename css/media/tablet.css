@@ -1,4 +1,17 @@
-@media (min-width: 601px) and (max-width: 992px) {
+@media (min-width: 601px) {
+    * {
+        font-size: 18px;
+    }
+
+    .greeting-main__heading2 h1 {
+        font-size: 3rem;
+    }
+
+    .greeting-main__button {
+        font-size: 1rem;
+        width: 70%;
+    }
+
     .stats-numbers hr {
         display: none;
     }
@@ -38,9 +51,67 @@
         justify-content: left;
     }
 
+    .footer {
+        padding: 6rem 50px 3rem 50px;
+    }
+
+    .about-glint__logo {
+        margin: 0 0 2rem 0;
+    }
+
+    .subscribe {
+        display: flex;
+    }
+
+    .subscribe__email {
+        width: 70%;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 0.8rem;
+    }
+
+    .subscribe__button {
+        width: 30%;
+        font-size: 10px;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copyright-item:first-child::after {
+        content: "|";
+        display: inline-block;
+        padding: 0 1rem 0 1.2rem;
+        color: rgba(255, 255, 255, .05);
+    }
 }
 
-@media (min-width: 801px) and (max-width: 992px) {
+@media (min-width: 801px) {
+
+    .greeting-main {
+        margin: 0 10%;
+    }
+
+    .greeting-main__heading1 h3 {
+        font-size: 1.2rem;
+    }
+
+    .greeting-main__heading2 h1 {
+        font-size: 3.2rem;
+    }
+
+    .greeting-main__buttons {
+        display: flex;
+        width: 80%;
+        margin-top: 50px;
+
+    }
+
+    .greeting-main__button:first-child {
+        margin-right: 20px;
+    }
 
     .services-list {
         display: flex;
@@ -76,5 +147,59 @@
         height: 350px;
     }
 
+    .clients-techstack-images__li {
+        width: 25%;
+    }
+
+    .clients-techstack-images__li:nth-child(4) {
+        display: block;
+    }
+
+    .clients-feedback {
+        width: 60%;
+    }
+
+    .clients-feedback-dots {
+        display: none;
+    }
+
+    .clients-techstack-buttons {
+        display: block;
+    }
+
+    .clients-techstack-button:nth-child(2) {
+        position: absolute;
+        bottom: 33%;
+        left: 85%;
+    }
+
+    .clients-techstack-button:first-child {
+        position: absolute;
+        bottom: 32.5%;
+        left: 10%;
+    }
+
+    .clients-feedback-quote {
+        position: relative;
+    }
+
+    .contact-us-body {
+
+    }
+
+    .footer-main {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .about-glint {
+        margin-right: 50px;
+        width: 50%;
+    }
+
+    .notification-and-subscription {
+        width: 50%
+    }
 }
 
