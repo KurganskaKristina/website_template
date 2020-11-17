@@ -14,6 +14,7 @@
     margin: 0 auto 2rem auto;
     width: 85px;
     height: 28px;
+    overflow-y: hidden;
 }
 
 .get-notified {
@@ -29,16 +30,14 @@
     width: 100%;
     border: none;
     height: 3rem;
-    text-align: center;
-    font-size: 15px;
 }
 
 .subscribe__email {
     background: rgba(0, 0, 0, 0.1);
     color: rgba(255, 255, 255, 0.5);
-    padding: 1.2rem 20px 1.2rem 20px;
+    text-align: center;
     margin-bottom: 1rem;
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 .subscribe__button {
@@ -46,16 +45,14 @@
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    padding: 5px 2px;
+    font-size: 12px;
 }
 
 .copyright {
     margin-top: 6rem;
     font-size: 14px;
     text-align: center;
-}
-
-.copyright span {
-    display: block;
 }
 
 .copyright a {

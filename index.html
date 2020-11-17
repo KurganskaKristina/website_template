@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style_contact-us.css">
     <link rel="stylesheet" href="css/style_footer.css">
     <link rel="stylesheet" href="css/media/mobile.css">
+    <link rel="stylesheet" href="css/media/tablet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -37,11 +38,11 @@
                 </div>
 
                 <div class="greeting-main__buttons">
-                    <div class="greeting-main__button1">
+                    <div class="greeting-main__button">
                         <a href="#">Start a project</a>
                     </div>
 
-                    <div class="greeting-main__button2">
+                    <div class="greeting-main__button">
                         <a href="3">More about us</a>
                     </div>
                 </div>
@@ -179,6 +180,7 @@
         <h2 class="works-title__subheading font-montserrat-medium">We love what we do, check out some of our latest
             works</h2>
     </div>
+
     <div class="works-list">
         <div class="works-list__photo">
             <a href="#"><img src="img/portfolio/lady-shutterbug@2x.jpg" alt="portfolio-1"></a>
@@ -213,6 +215,11 @@
             <ul class="clients-techstack-images__ul">
                 <li class="clients-techstack-images__li"><img src="img/apple.png" alt="tech-1"></li>
                 <li class="clients-techstack-images__li"><img src="img/atom.png" alt="tech-1"></li>
+                <li class="clients-techstack-images__li"><img src="img/xblackberry.png" alt="tech-1"></li>
+                <li class="clients-techstack-images__li"><img src="img/xenvato.png" alt="tech-1"></li>
+                <li class="clients-techstack-images__li"><img src="img/xfirefox.png" alt="tech-1"></li>
+                <li class="clients-techstack-images__li"><img src="img/xjoomla.png" alt="tech-1"></li>
+                <li class="clients-techstack-images__li"><img src="img/xmagento.png" alt="tech-1"></li>
             </ul>
         </div>
         <div class="clients-techstack-dots">
@@ -234,6 +241,14 @@
     </div>
 
     <div class="clients-feedback">
+        <div class="clients-techstack-buttons">
+            <button class="clients-techstack-button">
+                <img src="img/icons-left.png" alt="left-button">
+            </button>
+            <button class="clients-techstack-button">
+                <img src="img/icons-right.png" alt="right-button">
+            </button>
+        </div>
         <div class="clients-feedback-quote">
             <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum.
                 Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui
@@ -245,7 +260,8 @@
             <div class="clients-feedback-client__name font-montserrat-bold"><span>Tim Cook</span></div>
             <div class="clients-feedback-client__position font-montserrat-light"><span>CEO, Apple</span></div>
         </div>
-
+        <div class="clients-techstack-buttons">
+        </div>
         <div class="clients-feedback-dots">
             <ul class="clients-feedback-dots__ul">
                 <li class="clients-feedback-dots__li">
@@ -273,82 +289,89 @@
             hello</h2>
     </div>
 
-    <div class="message-us">
-        <h4 class="message-us__heading font-montserrat-medium">Send us a message</h4>
-        <form class="message-us__form">
-            <div class="message-us__input">
-                <input type="text" class="message-us__input-item" name="name" placeholder="Your Name">
-                <input type="email" class="message-us__input-item" name="email" placeholder="Your Email">
-                <input type="text" class="message-us__input-item" name="subject" placeholder="Subject">
-            </div>
-            <div class="message-us__message-field">
-                <textarea name="message" placeholder="Your Message"></textarea>
-                <button type="button">Submit</button>
-            </div>
-        </form>
-    </div>
-
-    <div class="contact-details">
-        <div class="contact-details__general">
-            <div class="contact-details__item">
-                <h5 class="contact-details__heading font-montserrat-medium">Where to find us</h5>
-                <p class="contact-details__details font-montserrat-light">1600 Amphitheatre Parkway
-                    <br>Mountain View, CA
-                    <br>94043 US
-                </p>
-            </div>
-            <div class="contact-details__item">
-                <h5 class="contact-details__heading font-montserrat-medium">Email us at</h5>
-                <p class="contact-details__details font-montserrat-light">contact@glintsite.com
-                    <br>info@glintsite.com
-                </p>
-            </div>
-            <div class="contact-details__item">
-                <h5 class="contact-details__heading font-montserrat-medium">Call us at</h5>
-                <p class="contact-details__details font-montserrat-light">Phone: (+63) 555 1212
-                    <br>Mobile: (+63) 555 0100
-                    <br>Fax: (+63) 555 0101
-                </p>
-            </div>
+    <div class="contact-us-body">
+        <div class="message-us">
+            <h4 class="message-us__heading font-montserrat-medium">Send us a message</h4>
+            <form class="message-us__form">
+                <div class="message-us__input">
+                    <input type="text" class="message-us__input-item" name="name" placeholder="Your Name">
+                    <input type="email" class="message-us__input-item" name="email" placeholder="Your Email">
+                    <input type="text" class="message-us__input-item" name="subject" placeholder="Subject">
+                </div>
+                <div class="message-us__message-field">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <button type="button">Submit</button>
+                </div>
+            </form>
         </div>
 
-        <div class="contact-details__sm">
-            <ul class="contact-details__sm-list">
-                <li class="contact-details__sm-item"><img src="img/sm/facebook.png" alt="facebook"></li>
-                <li class="contact-details__sm-item"><img src="img/sm/twitter.png" alt="twitter"></li>
-                <li class="contact-details__sm-item"><img src="img/sm/instagram.png" alt="instagram"></li>
-                <li class="contact-details__sm-item"><img src="img/sm/behance.png" alt="behance"></li>
-                <li class="contact-details__sm-item"><img src="img/sm/linkedin.png" alt="linkedin"></li>
-            </ul>
+        <div class="contact-details">
+            <div class="contact-details__general">
+                <div class="contact-details__item">
+                    <h5 class="contact-details__heading font-montserrat-medium">Where to find us</h5>
+                    <p class="contact-details__details font-montserrat-light">1600 Amphitheatre Parkway
+                        <br>Mountain View, CA
+                        <br>94043 US
+                    </p>
+                </div>
+                <div class="contact-details__item">
+                    <h5 class="contact-details__heading font-montserrat-medium">Email us at</h5>
+                    <p class="contact-details__details font-montserrat-light">contact@glintsite.com
+                        <br>info@glintsite.com
+                    </p>
+                </div>
+                <div class="contact-details__item">
+                    <h5 class="contact-details__heading font-montserrat-medium">Call us at</h5>
+                    <p class="contact-details__details font-montserrat-light">Phone: (+63) 555 1212
+                        <br>Mobile: (+63) 555 0100
+                        <br>Fax: (+63) 555 0101
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-details__sm">
+                <ul class="contact-details__sm-list">
+                    <li class="contact-details__sm-item"><img src="img/sm/facebook.png" alt="facebook"></li>
+                    <li class="contact-details__sm-item"><img src="img/sm/twitter.png" alt="twitter"></li>
+                    <li class="contact-details__sm-item"><img src="img/sm/instagram.png" alt="instagram"></li>
+                    <li class="contact-details__sm-item"><img src="img/sm/behance.png" alt="behance"></li>
+                    <li class="contact-details__sm-item"><img src="img/sm/linkedin.png" alt="linkedin"></li>
+                </ul>
+            </div>
         </div>
     </div>
+
 </section>
 
 <footer class="footer font-montserrat-light">
-    <div class="about-glint">
-        <div class="about-glint__logo"><img src="img/logo-footer.png" alt="logo"></div>
-        <p class="about-glint__text">
-            Proin eget tortor risus. Mauris blandit aliquet elit,
-            eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis
-            a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit,
-            eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt.
-            Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.</p>
-    </div>
+    <div class="footer-main">
+        <div class="about-glint">
+            <div class="about-glint__logo"><img src="img/logo-footer.png" alt="logo"></div>
+            <p class="about-glint__text">
+                Proin eget tortor risus. Mauris blandit aliquet elit,
+                eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis
+                a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit,
+                eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt.
+                Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.</p>
+        </div>
 
-    <div class="get-notified">
-        <h4 class="get-notified__heading">Get Notified</h4>
-        <p class="get-notified__text">Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae
-            aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
-    </div>
+        <div class="notification-and-subscription">
+            <div class="get-notified">
+                <h4 class="get-notified__heading">Get Notified</h4>
+                <p class="get-notified__text">Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae
+                    aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+            </div>
 
-    <form class="subscribe" name="subscription-form">
-        <input type="email" class="subscribe__email" placeholder="Email Address" name="email-for-subscription">
-        <button type="button" class="subscribe__button font-montserrat-medium">Subscribe</button>
-    </form>
+            <form class="subscribe" name="subscription-form">
+                <input type="email" class="subscribe__email" placeholder="Email Address" name="email-for-subscription">
+                <button type="button" class="subscribe__button font-montserrat-medium">Subscribe</button>
+            </form>
+        </div>
+    </div>
 
     <div class="copyright">
-        <span>© Copyright Glint 2017</span>
-        <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
+        <div class="copyright-item">© Copyright Glint 2017</div>
+        <div class="copyright-item">Site Template by <a href="https://www.colorlib.com/">Colorlib</a></div>
     </div>
 </footer>
 

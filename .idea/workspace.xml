@@ -20,9 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aca3c87e-d2e0-44bf-b71b-32a2ccd8b8f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/icons-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xblackberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xenvato.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xfirefox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xjoomla.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/xmagento.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media/tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media/tablet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_clients.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_clients.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_contact-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_contact-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +62,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\krist\PhpstormProjects\website_template\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website_template/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +94,10 @@
       <workItem from="1605112566016" duration="5399000" />
       <workItem from="1605263682305" duration="1129000" />
       <workItem from="1605266412717" duration="822000" />
-      <workItem from="1605277006288" duration="10731000" />
+      <workItem from="1605277006288" duration="12454000" />
+      <workItem from="1605366632209" duration="1159000" />
+      <workItem from="1605543037812" duration="15345000" />
+      <workItem from="1605622293602" duration="19929000" />
     </task>
     <servers />
   </component>
@@ -84,5 +115,27 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1605291009720">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1605291009720" />
+    <state x="147" y="65" key="MergeDialog" timestamp="1605290954790">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605290954790" />
+    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1605290954795">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1605290954795" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1605650155676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605650155676" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605651197639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605651197639" />
   </component>
 </project>
