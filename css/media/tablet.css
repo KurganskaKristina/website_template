@@ -94,12 +94,8 @@
         margin: 0 10%;
     }
 
-    .greeting-main__heading1 h3 {
-        font-size: 1.2rem;
-    }
-
     .greeting-main__heading2 h1 {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
     }
 
     .greeting-main__buttons {
@@ -111,6 +107,19 @@
 
     .greeting-main__button:first-child {
         margin-right: 20px;
+    }
+
+    .stats-text {
+        width: 80%;
+    }
+
+    .services-title__subheading {
+        font-size: 3rem;
+        width: 80%;
+    }
+
+    .services-list__heading {
+        font-size: 1.5rem;
     }
 
     .services-list {
@@ -135,7 +144,7 @@
     }
 
     .works-list {
-        margin-top: -45%;
+        margin-top: -38%;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
@@ -156,7 +165,7 @@
     }
 
     .clients-feedback {
-        width: 60%;
+        width: 70%;
     }
 
     .clients-feedback-dots {
@@ -169,22 +178,19 @@
 
     .clients-techstack-button:nth-child(2) {
         position: absolute;
-        bottom: 33%;
+        bottom: 35%;
         left: 85%;
     }
 
     .clients-techstack-button:first-child {
         position: absolute;
-        bottom: 32.5%;
+        bottom: 35%;
         left: 10%;
     }
 
-    .clients-feedback-quote {
+    .clients-feedback-quote p {
+        font-size: 2rem;
         position: relative;
-    }
-
-    .contact-us-body {
-
     }
 
     .footer-main {

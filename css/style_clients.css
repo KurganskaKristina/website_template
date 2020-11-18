@@ -32,10 +32,12 @@
     display: flex;
     justify-content: center;
 }
+
 .clients-techstack-images__li {
     width: 50%;
     padding: 1rem 0.5rem;
 }
+
 .clients-techstack-images__li:nth-child(n+3) {
     display: none;
 }
@@ -60,7 +62,7 @@
     overflow-y: hidden;
 }
 
-.clients-techstack-dots__li button, .clients-feedback-dots__li button{
+.clients-techstack-dots__li button, .clients-feedback-dots__li button {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -112,8 +114,14 @@
     border-radius: 50%;
 }
 
+.clients-feedback-client__name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .clients-feedback-client__position {
     font-size: 0.8rem;
+    color: lightslategray;
 }
 
 .clients-feedback-dots {
