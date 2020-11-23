@@ -1,0 +1,61 @@
+.footer {
+    padding: 6rem 30px 3rem 30px;
+    font-size: 15px;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.3);
+    background: #111111;
+}
+
+.about-glint {
+    margin-bottom: 2rem;
+}
+
+.about-glint__logo {
+    margin: 0 auto 2rem auto;
+    width: 85px;
+    height: 28px;
+    overflow-y: hidden;
+}
+
+.get-notified {
+    margin-bottom: 2rem;
+}
+
+.get-notified__heading {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.subscribe input, button {
+    width: 100%;
+    border: none;
+    height: 3rem;
+}
+
+.subscribe__email {
+    background: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.subscribe__button {
+    background: #39b54a;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 5px 2px;
+    font-size: 12px;
+}
+
+.copyright {
+    margin-top: 6rem;
+    font-size: 14px;
+    text-align: center;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+}
