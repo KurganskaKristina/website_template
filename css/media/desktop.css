@@ -1,0 +1,117 @@
+@media (min-width: 1001px) {
+    .clients-techstack-images__li {
+        width: 20%;
+    }
+
+    .clients-techstack-images__li:nth-child(5) {
+        display: block;
+    }
+
+    .footer-main {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .greeting-main__heading2 {
+        width: 75%;
+    }
+
+    .greeting-main__buttons {
+        width: 50%;
+    }
+
+    .greeting-main__button a {
+        letter-spacing: .15rem;
+    }
+
+    .stats p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .stats-title__heading {
+        font-size: 1.5rem;
+    }
+
+    .stats-title__subheading {
+        font-size: 4rem;
+    }
+
+    .stats-numbers {
+        width: 100%;
+    }
+
+    .stats-counter {
+        width: 25%;
+    }
+
+    .stats-counter:nth-child(odd) {
+        padding-right: 30px;
+    }
+
+    .stats-counter:nth-child(3) {
+        border-left: 1px solid white;
+        padding-left: 30px;
+    }
+
+    .stats-counter:nth-child(2) {
+        padding-right: 30px;
+    }
+
+    .services-title__subheading {
+        width: 60%;
+    }
+
+    .works-list {
+        margin-top: -20%;
+    }
+
+    .works-title__subheading {
+        font-size: 3rem;
+        width: 70%;
+    }
+
+    .clients-techstack-images__li {
+        width: 12%;
+    }
+
+    .clients-techstack-images__li:nth-child(6) {
+        display: block;
+    }
+
+    .message-us__heading {
+        text-align: left;
+    }
+
+    .contact-us-body {
+        width: 60%;
+        padding-bottom: 0;
+    }
+
+    .message-us {
+        width: 70%;
+    }
+
+    .contact-details {
+        width: 30%;
+        background: black;
+    }
+
+    .contact-us-title__subheading {
+        font-size: 3rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .contact-details__main-heading {
+        display: block;
+        padding-top: 3rem;
+    }
+
+    .contact-us-body {
+        display: flex;
+    }
+
+
+}

@@ -29,24 +29,28 @@
 .stats-title__subheading {
     color: white;
     padding-top: 10px;
-    font-size: 30px;
-    letter-spacing: .1rem;
+    font-size: 2rem;
+    letter-spacing: .15rem;
 }
 
 .stats hr {
     margin: 40px 0 20px 0;
     color: white;
     height: 1px;
-    width: 200px;
+    width: 100%;
 }
 
 .stats-text {
-    font-size: 16px;
+    font-size: 1rem;
     margin: 20px 0 20px 0;
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 .stats-counter__item1 {
     font: 74px "monsterrat-bold", sans-serif;
     color: white;
+}
+
+.stats-counter__item2 {
+    font-family: "monsterrat-semibold", sans-serif;
 }
